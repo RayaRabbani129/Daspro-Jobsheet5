@@ -39,6 +39,8 @@ public class Kafe25 {
             break;
             case 'L':
             break;
+            default:
+            System.out.println("Tidak tersedia");
         } 
         double diskon = keanggotaan ? 0 : 0.1;
         double nominalBayar = totalHarga - (diskon * totalHarga);
