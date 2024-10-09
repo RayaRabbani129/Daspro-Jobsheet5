@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Pemilihan2Percobaan225 {
     public static void main(String[] args) {
-        Scanner input24 = new Scanner(System.in);
+        Scanner input25 = new Scanner(System.in);
         String member, jenisPembayaran;
         double diskon = 0, harga, totalbayar;
         int menu, potonganQRIS = 0;
@@ -15,12 +15,12 @@ public class Pemilihan2Percobaan225 {
         System.out.println("3. Paket Bundling (Rice Bowl + Ice Tea)");
         System.out.println("---------------------------------------");
         System.out.print("Masukkan angka dari menu yang dipesan: ");
-        menu = input24.nextInt();
-        input24.nextLine();  // Untuk membersihkan sisa karakter newline setelah nextInt
+        menu = input25.nextInt();
+        input25.nextLine();  // Untuk membersihkan sisa karakter newline setelah nextInt
         System.out.print("Apakah punya member? (y/n): ");
-        member = input24.nextLine();
+        member = input25.nextLine();
         System.out.print("Jenis pembayaran? (cash/QRIS): ");
-        jenisPembayaran = input24.nextLine();
+        jenisPembayaran = input25.nextLine();
         System.out.println("---------------------------------------");
 
         // Mengecek apakah pembelian menggunakan QRIS

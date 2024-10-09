@@ -15,7 +15,7 @@ public class Pemilihan2Percobaan325 {
             if (penghasilan <= 20000000){
                 pajak = 0.1;
             }else if (penghasilan <= 30000000){
-                pajak = 0.15;
+                pajak = 0.15;  
             }else{
                 pajak = 0.2;
             }
